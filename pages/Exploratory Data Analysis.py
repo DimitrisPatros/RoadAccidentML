@@ -13,7 +13,7 @@ st.set_page_config(
      initial_sidebar_state ="auto",
  )
 
-st.download_button('https://dionysisk.eu/RSA/report.html', binary_contents)
+# st.download_button('https://dionysisk.eu/RSA/report.html', binary_contents)
 
 components.iframe("https://dionysisk.eu/RSA/report.html",height = 700,scrolling =True,width=700)
 
