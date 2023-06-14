@@ -1,14 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
-#import pandas as pd
-#from model import prediction, scores
-# import numpy as np
-# import pydeck as pdk
-# import plotly.express as px
-# import datetime as dt
-
-
 
 st.set_page_config(
     page_title="RA_France",
@@ -16,8 +8,6 @@ st.set_page_config(
     #layout="wide",
     initial_sidebar_state ="auto",
 )
-
-
 
 st.write("#      Road Accidents in France")
 
